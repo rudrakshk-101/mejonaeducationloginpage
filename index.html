@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logintomejona</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+          <img src="mejonalogo.png" alt="Logo">
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+    <div class="container">
+      <div class="backbox">
+        <div class="loginMsg">
+          <div class="textcontent">
+            <p class="title">Don't have an account?</p>
+            <p>Sign up.</p>
+            <button id="switch1">Sign Up</button>
+          </div>
+        </div>
+        <div class="signupMsg visibility">
+          <div class="textcontent">
+            <p class="title">Have an account?</p>
+            <p>Log in to Mejona Education.</p>
+            <button id="switch2">LOG IN</button>
+          </div>
+        </div>
+      </div>
+      <!-- backbox -->
+  
+      <div class="frontbox">
+        <div class="login">
+          <h2>LOG IN</h2>
+          <div class="inputbox">
+            <input type="text" name="email" placeholder="  EMAIL">
+            <input type="password" name="password" placeholder="  PASSWORD">
+          </div>
+          <p>FORGET PASSWORD?</p>
+          <button>LOG IN</button>
+        </div>
+  
+        <div class="signup hide">
+          <h2>SIGN UP</h2>
+          <div class="inputbox">
+            <input type="text" name="fullname" placeholder="  FULLNAME">
+            <input type="text" name="email" placeholder="  EMAIL">
+            <input type="password" name="password" placeholder="  PASSWORD">
+          </div>
+          <button>SIGN UP</button>
+        </div>
+  
+      </div>
+      <!-- frontbox -->
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+  
+  </html>
+</html>
