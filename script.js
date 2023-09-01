@@ -10,7 +10,7 @@ var $loginMsg = $('.loginMsg'),
 $('#switch1').on('click', function() {
   $loginMsg.toggleClass("visibility");
   $frontbox.addClass("moving");
-  $bod.css('background-image', 'url("/office-supplies.jpg")');
+  $bod.css('background-image', 'url("office-supplies.jpg")');
   $signupMsg.toggleClass("visibility");
   $signup.toggleClass('hide');
   $login.toggleClass('hide');
@@ -22,7 +22,7 @@ $('#switch2').on('click', function() {
     $loginMsg.toggleClass("visibility");
     $frontbox.removeClass("moving");
     $signupMsg.toggleClass("visibility");
-    $bod.css('background-image', 'url("/workplace-with-blue-office-supplies.jpg")');
+    $bod.css('background-image', 'url("workplace-with-blue-office-supplies.jpg")');
   $signup.toggleClass('hide');
   $login.toggleClass('hide');
   $lines.toggleClass('hide');
