@@ -3,7 +3,9 @@ var $loginMsg = $('.loginMsg'),
   $signupMsg = $('.signupMsg'),
   $signup = $('.signup'),
   $frontbox = $('.frontbox'),
-  $bod = $('body');
+  $bod = $('body'),
+  $lines = $('.lines'),
+  $glowing = $('.backroundEffect');
 
 $('#switch1').on('click', function() {
   $loginMsg.toggleClass("visibility");
@@ -12,6 +14,8 @@ $('#switch1').on('click', function() {
   $signupMsg.toggleClass("visibility");
   $signup.toggleClass('hide');
   $login.toggleClass('hide');
+  $lines.toggleClass('hide');
+  $glowing.toggleClass('hide');
 })
 
 $('#switch2').on('click', function() {
@@ -21,6 +25,8 @@ $('#switch2').on('click', function() {
     $bod.css('background-image', 'url("/workplace-with-blue-office-supplies.jpg")');
   $signup.toggleClass('hide');
   $login.toggleClass('hide');
+  $lines.toggleClass('hide');
+  $glowing.toggleClass('hide');
 })
 
 setTimeout(function(){
